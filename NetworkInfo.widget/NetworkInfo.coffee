@@ -53,8 +53,8 @@ update: (output, domEl) ->
 style: """
   margin:0
   padding:0px
-  left:450px
-  top: 10px
+  left:300px
+  top: 0px
   background:rgba(#000, 0.0)
   border-radius:10px
 
@@ -68,11 +68,12 @@ style: """
     margin:2px
 
   .primaryInfo
-    font-size:10pt
-    font-weight:bold
+    font-size:12pt
+    font-weight:800
     color: rgba(#fff,1.0)
 
   .secondaryInfo
-    font-size:8pt
+    font-size:12pt
+    font-weight:800
     color: rgba(#fff, 1.0)
 """

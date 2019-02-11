@@ -4,7 +4,7 @@ refreshFrequency: 30000
 
 style: """
   top: 20px
-  left: 355px
+  left: 225px
   color: #fff
   font-family: Helvetica Neue
 
@@ -17,23 +17,23 @@ style: """
     padding: 4px 6px 4px 6px
 
     &:after
-      content: 'battery'
+      content: 'BATTERY'
       position: absolute
-      left: 0
+      left: 5
       top: -14px
-      font-size: 10px
-      font-weight: 500
+      font-size: 14px
+      font-weight: 800
 
   .percent
     font-size: 24px
-    font-weight: 100
+    font-weight: 800
     margin: 0
 
   .status
     padding: 0
     margin: 0
-    font-size: 11px
-    font-weight: normal
+    font-size: 14px
+    font-weight: 800
     max-width: 100%
     color: #fff
     text-overflow: ellipsis

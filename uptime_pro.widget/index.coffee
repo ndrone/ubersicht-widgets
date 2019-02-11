@@ -11,8 +11,8 @@ theme		= 'dark'													#
 style		= 'full'													#
 #																		#
 # POSITION WIDGET ON SCREEN												#
-pos_top		= '20px'													#
-pos_left	= '200px'													#
+pos_top		= '70px'													#
+pos_left	= '50px'													#
 #																		#
 #-----------------------------------------------------------------------#
 
@@ -77,22 +77,22 @@ style: """
     text-shadow: 0 0 1px #{bkground}
     background: #{bkground}
     font-size: 16px
-    font-weight: 400
+    font-weight: 600
     opacity: #{opacityLevel}
     padding: 4px 8px 4px 6px
 
     &:after
       content: 'UPTIME'
       position: absolute
-      left: 0
+      left: 5
       top: -14px
-      font-size: 10px
-      font-weight: 500
+      font-size: 14px
+      font-weight: 800
       color: #{labelColor}
 
   .uptime
     font-size: 16px
-    font-weight: 500
+    font-weight: 800
     color: #{uptimeColor}
     margin: 1px
 
@@ -105,7 +105,7 @@ style: """
     padding: 0
     margin: 2px
     font-size: 12px
-    font-weight: 300
+    font-weight: 800
     max-width: 100%
     color: #{nameColor}
     text-overflow: ellipsis

@@ -78,13 +78,13 @@ style: """
 
   .osName
     font-size: 14px
-    font-weight: 600
+    font-weight: 800
     color: #{uptimeColor}
     margin: 1px
 
   .osRelease
     font-size: 14px
-    font-weight: 400
+    font-weight: 800
     color: #{uptimeColor}
     margin: 1px
 
@@ -97,8 +97,8 @@ style: """
     padding: 0
     margin: 0px
     margin-left:43px
-    font-size: 11px
-    font-weight: 400
+    font-size: 12px
+    font-weight: 800
     max-width: 100%
     color: #{nameColor}
     text-overflow: ellipsis
