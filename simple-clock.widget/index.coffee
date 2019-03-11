@@ -49,7 +49,7 @@ style: (->
   fontSize = '18pt'
   width = 'auto'
   transform = 'auto'
-  bottom = '200px'
+  bottom = '210px'
   right = '0px'
   top = 'auto'
 
