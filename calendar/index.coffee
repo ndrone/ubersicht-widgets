@@ -1,4 +1,4 @@
-sundayFirstCalendar = 'cal && date "+%-m %-d %y"'
+sundayFirstCalendar = 'cal -h && date "+%-m %-d %y"'
 
 mondayFirstCalendar =  'cal -h | awk \'{ print " "$0; getline; print "Mo Tu We Th Fr Sa Su"; \
 getline; if (substr($0,1,2) == " 1") print "                    1 "; \
