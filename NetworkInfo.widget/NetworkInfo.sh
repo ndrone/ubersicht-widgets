@@ -11,6 +11,9 @@ exportService() {
   echo '  {'
   echo '    "name":"'$1'",'
   echo '    "ipaddress":"'${ip}'",'
+  if [ "$mac" = "(null)" ]; then
+    mac=""
+  fi
   echo '    "macaddress":"'${mac}'"'
   echo '  }'
 }
