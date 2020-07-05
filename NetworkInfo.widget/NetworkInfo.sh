@@ -41,7 +41,7 @@ wmac=$(networksetup -getinfo wi-fi | grep -Ei '(^Wi-Fi ID:)' | awk '{print $3}')
 
 # get the VPN information
 vip=$(ifconfig ipsec0 | grep inet | awk '{print $2}')
-vmac="(null)"
+vmac=""
 
 # Start the JSON.
 startJSON
