@@ -126,7 +126,7 @@ update: (output,domEl) ->
     when ((osVersion.substr(0,5) == "10.14") && (theme == 'dark')) then (document.getElementById("osIcon").src = "os_version_pro.widget/icons/mojave_dark.png") && (osRelease = ' Mojave')
     when osVersion.substr(0,5) == "10.14" then (document.getElementById("osIcon").src = "os_version_pro.widget/icons/mojave.png") && (osRelease = ' Mojave')
     when osVersion.substr(0,5) == "10.15" then (document.getElementById("osIcon").src = "os_version_pro.widget/icons/catalina.png") && (osRelease = ' Catalina')
-    when osVersion.substr(0,5) == "11.0" then (document.getElementById("osIcon").src = "os_version_pro.widget/icons/mac_os.png") && (osRelease = ' Big Sur')
+    when osVersion.substr(0,4) == "11.0" then (document.getElementById("osIcon").src = "os_version_pro.widget/icons/mac_os.png") && (osRelease = ' Big Sur')
     else document.getElementById("osIcon").src = "os_version_pro.widget/icons/mac_os.png"
 
   if (osName == 'OSX')
